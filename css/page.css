@@ -1,0 +1,405 @@
+@charset "UTF-8" ;
+
+
+    @media screen and (max-width: 1024px) {
+
+        /* 표지 */
+        .book {
+            width: 40%; 
+            height: 70%;
+            margin-left: 30%;
+        }
+    
+        .section .book ul {
+            width: 30%; 
+            left: 100%; 
+            top: 0; 
+        }
+    
+        .section .book > ul li {
+            margin: 30px auto; 
+        }
+    
+        .section .book > ul li a {
+            font-size: 16px; 
+        }
+
+        /* 목차 */
+
+        h1 {
+            font-size: 3rem;
+        }
+        .na p {
+           line-height: 10%;
+            font-size: 1.5rem;
+        }
+
+        .index .notebook {
+            width: 90%; 
+            height: 350px;
+           position: absolute;
+           left: -240px;
+           transform: rotate(-10deg);
+        }
+        .flower:nth-child(1) {
+            left:10%; 
+            bottom: 25%;
+        }
+        .flower:nth-child(2) {
+            left: 200px;
+        }
+        .flower:nth-child(3) {
+            left:75%;
+        }
+        .square {
+            width: 60%;
+        }
+
+        /* 자기소개 */
+        .yourself {
+            background-size: auto 100%; 
+        }
+        .yourself .box1 {
+            width: 50vw; 
+            height: 100vh; 
+            bottom: 10%;
+            padding: 5rem;
+            background-size: 100%;
+            transform: translateY(-50%) scale(0.9); 
+        }
+        .box2 {
+            width: 60%; 
+            height: 40%; 
+            left: 30%;
+            bottom: 20px; 
+            transform: rotate(-5deg); 
+            border-radius: 8px;
+        }
+
+        .yourself .box3 {
+            left: 60%; top:5%;
+            border-radius: 10px; 
+        }
+
+        /* 1장 */
+        .onestory h2 {
+            width: 100%;
+            font-size: 2rem;
+            margin-left:30%;
+    }
+
+    /* 제2장  */
+
+    .twostory {
+        flex-direction: column;
+    }
+
+    .portwo video {
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    .porthree {
+        width: 40%;
+        margin: 0 auto;
+
+    }
+    .portwo::after {
+        left: 800px;
+        top: -10px;
+    }
+    .portwo::before {
+        left: 100px;
+        top: -10px;
+    }
+
+    .end-right {
+        width: 80%;
+        height: 90%;
+        font-size: 0.9rem;
+        line-height: 1.4rem;
+        text-align: center;
+        background-size: cover;
+    }
+
+    .sns {
+        left:290px;
+        top: 350px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    /* 표지 */
+    .book {
+        width: 50%;
+        position: relative;
+        right: 100px;
+    }
+    .square {
+        width: 60%; 
+        height: 80%; 
+        position: relative;
+        bottom: 40%; left:-25%;
+    }
+
+    .section .book ul {
+        width: 35%;
+    }
+
+    .flower:nth-child(1) {
+        width: 10%;
+    }
+    .flower:nth-child(2) {
+        width: 10%;
+        left: 160px; 
+        top: 350px;
+    }
+
+    .flower:nth-child(3) {
+        width: 10%;
+        left:80%;
+    }
+
+    .na p {
+        font-size: 1.2rem; 
+    }
+
+     /* 자기소개 */
+
+     .yourself .box1  {
+        width: 70%;
+     }
+
+     .box2  {
+        width: 35%;
+        position: relative;
+        left:300px;
+        top: 170px;
+     }
+
+     .yourself .box3 {
+        position: relative;
+        left:100px; 
+        top:-250px;
+     }
+    /* 1장 */
+
+    .onestory h2 {
+        font-size: 1.5rem;
+        position: relative;
+        left:10%;
+    }
+
+    .portfolio {
+        position: relative;
+        right: 50px;
+    }
+
+    .end-right {
+        width: 80%;
+    }
+
+    /* 2장 */
+
+    .portwo::before {
+        left: 100px;
+        top:-20px;
+    }
+
+    .portwo::after {
+        left: 600px;
+        top:-20px;
+    }
+
+    .porthree {
+        font-size: 1rem;
+        line-height: 50px;
+    }
+    /* 마지막장 */
+
+    .end  {
+        flex-direction: column;
+    }
+    .end-right {
+        width: 50%;
+        height: 100%;
+        background-size: 100%;
+        margin: 0 auto;
+        font-size: 0.7rem;
+        line-height: 0.9rem;
+    }
+
+    .sns 
+    { width: 40%;
+        left:280px; top:220px;
+
+    }
+    .ins {
+        margin: 0 10px;
+    }
+    .call {
+        margin: 0 10px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+
+    body {
+        background-image: none;
+    }
+
+    section:nth-child(1) {
+        background: url('../이미지/뒷화면.gif') no-repeat right / cover;
+        height: 100vh; 
+    }
+
+    .book {
+        width: 70%; 
+        top: 50px;
+    }
+
+    .section .book ul  {
+        width: 35%;
+    }
+  
+    .section .book > ul li a {
+        font-size: 10px;
+    }
+    /* 1장 */
+
+    .square
+    {
+        width: 70%;
+        height: 80%;
+        position: absolute;
+        left:-80px; top: 150px;
+    }
+
+    h1 {
+        font-size: 1.3rem;
+    }
+
+    .na p {
+        font-size: 1rem;
+    }
+ 
+    .index .notebook {
+        width: 70%;
+        height: 20%;
+        left: -50px;
+        top:200px;
+    }
+
+    .flower {
+        width: 15%; 
+        height: 15%;
+    }
+
+    .flower:nth-child(1) {
+        top:350px; left: 60px;
+    }
+    .flower:nth-child(2) {
+       left:-200px; 
+    }
+    /* 1장 */
+
+    .yourself .box1 {
+        width: 90vw; 
+        height: 70vh;
+        left: 5%; 
+        top:30%;
+    }
+
+    .box2 {
+        width: 100%; 
+        height: 50%; 
+        left: 20%;
+        top:150px;
+        transform: rotate(0deg); 
+    }
+
+    .yourself .box3 {
+        width: 70%; 
+        height: 40%; 
+        left:-130px;
+        top: 80%; 
+        transform: translateY(-100%); 
+    }
+
+
+    /* //소제목 */
+
+    .onestory h2 {
+        font-size: 1.2rem; 
+        margin: 100px;
+        opacity: 1; 
+    }
+
+    .portfolio {
+        width: 80%; 
+        height: 60%; 
+        margin-left: 0;
+        margin-top: 25rem; 
+        margin-right: 100px;
+    }
+
+    /* 2장 포트폴리오 */
+    .twostory 
+    {background: url(../이미지/줄노트1.jpg)no-repeat center / cover;}
+
+    .portwo video {
+        width: 80%;
+        position: absolute;
+        top:20px; left:10px;
+    }
+
+    .porthree
+    {   width: 80%;
+        height: auto;
+        position: absolute;
+        left:60px; top:400px;
+    }
+
+    /* 마지막장 */
+    .section {
+
+        background: url(../이미지/줄노트1.jpg)no-repeat center / cover;
+    }
+    .end {
+            flex-direction: column; 
+            align-items: center;
+        background: url(../이미지/줄노트1.jpg)no-repeat center / cover;
+    }
+
+    .end-right {
+        width: 90%; 
+        height: 80%;
+        margin-right: 200px;
+        text-align: center;
+        line-height: 1rem;
+        padding: 0%;
+     }
+     .sns {
+        left: 50%; 
+        bottom: 0px; 
+        transform: translateX(-50%); 
+    }
+
+    .ins, .call, .twi {
+        width: 30%;
+        margin: 0 auto ;
+        position: relative;
+        bottom: 150px;
+    }
+
+    .end-left {
+        width: 50%; 
+        height: 50%; 
+     
+ 
+    }
+
+  
+
+}
