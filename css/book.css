@@ -511,7 +511,7 @@ h1::after {
 .sns {
     width: 100%;
     position: absolute;
-    left:500px; bottom: 110px;
+    left:500px; bottom: 180px;
 
 }
 
@@ -534,6 +534,7 @@ h1::after {
     background:url('../이미지/5.가즈아.gif')no-repeat center /contain;
     border-radius: 100%;
     margin: 0 auto;
+    margin-right: 150px;
 }
 /* 메뉴 */
 
