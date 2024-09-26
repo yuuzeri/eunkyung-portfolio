@@ -25,7 +25,7 @@
 
 /* 표지 */
 * {
-    cursor: url('../이미지/깃털펜.png')2 2, auto;
+    cursor: url('../이미지/연필.png')1 1, auto;
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -50,11 +50,11 @@ section:nth-child(1) {
 }
 
 .book {
-    width: 25%;
+    width: 26%;
     height: 70%;
-    background:url('../이미지/표지1.png' ) no-repeat center / 255% 110%;
+    background:url('../이미지/표지1.png' ) no-repeat center / 290% 105%;
     position: relative;
-    box-shadow: 10px 20px #14352e;
+    box-shadow: 10px 7px #14352e;
     margin-left: 50%;
     display: flex;
     justify-content:end;
@@ -62,10 +62,10 @@ section:nth-child(1) {
 }
 
 .section .book ul {
-    width:25%;
+    width:28%;
     height: 5%;
     position:absolute;
-    left:480px; top:-50px;
+    left:500px; top:-50px;
 }
 .section .book > ul li{
     width: 100%;
@@ -79,7 +79,7 @@ section:nth-child(1) {
     display: block;
     text-align: center;
     position: absolute;
-    left:42px;
+    left:50px;
 }
 
 .section .book ul li:hover {
@@ -213,9 +213,8 @@ h1::after {
     width: 35vw; 
     height: 90vh;
     background: url('../이미지/자기소개1.png') no-repeat center / contain;
-    border-radius: 20px; 
     position: absolute; 
-    left: 5%; 
+    left: 10%; 
     top: 50%; 
     transform: translateY(-50%); 
     overflow: hidden;
@@ -228,7 +227,7 @@ h1::after {
     height: 50%; 
     background: url('../이미지/할것.png') no-repeat center / contain;
     position: absolute; 
-    right: 600px;
+    right: 500px;
     bottom: 35px; 
     z-index: 2; 
     transform: rotate(-15deg); 
@@ -462,7 +461,7 @@ h1::after {
     display: block;
     z-index: 9999;
     position: absolute;
-    bottom: 670px; left:950px;
+    bottom: 670px; left:1000px;
     transform: rotate(30deg);
 
 }
@@ -511,7 +510,7 @@ h1::after {
 .sns {
     width: 100%;
     position: absolute;
-    left:500px; bottom: 180px;
+    left:450px; bottom: 150px;
 
 }
 
